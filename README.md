@@ -4,6 +4,9 @@ This repository serves as the **control plane** for an IoT-based energy manageme
 
 > **Note:** This project is a simplified demonstration of a production system co-developed for energy data analysis. Business-specific logic and sensitive credentials have been removed to focus on the system architecture.
 
+>⚠️ Note on UI/Frontend:
+To comply with confidentiality agreements, the frontend interface (HTML/JS templates) and proprietary visualization logic have been excluded from this repository. This demo focuses strictly on the backend architecture, specifically the integration between the Flask web server, MySQL database, and RabbitMQ message broker.
+
 ## 🏗️ System Architecture
 
 The system follows a microservices-inspired architecture, separating the Web Interface (Frontend/API) from the Heavy Processing (Backend Workers):
