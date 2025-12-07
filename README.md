@@ -41,12 +41,8 @@ The system follows a microservices-inspired architecture, separating the Web Int
 
 ## Usage
 
-1.  Install dependencies:
-    ```
-    pip install -r requirements.txt
-    ```
-2.  Configure connection strings in `config.py`.
-3.  Start the server:
+1.  Configure connection strings in `config.py`.
+2.  Start the server:
     ```
     python app.py
     ```
